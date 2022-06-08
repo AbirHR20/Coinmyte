@@ -1,0 +1,125 @@
+@media (max-width:575px) {
+    .fs-106{
+        font-size: 50px !important;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    #banner .banner{
+        padding: 80px 0 !important;
+    }
+
+    #banner .banner .banner-text {
+        padding-bottom: 50px;
+    }
+
+    #banner .banner .end {
+        margin-top: 0px !important;
+    }
+
+    #trust .trust{
+        padding: 0 0 !important;
+    }
+
+    #trust .trust .trust-text {
+        padding: 60px 0 !important;
+    }
+
+    #trust .fst{
+        padding-top: 0 !important;
+    }
+
+    #trad .trad .trad-text {
+        padding-top: 0px !important;
+        margin-bottom: 60px;
+    }
+
+    #market .market .market-item {
+        padding: 60px 0 !important;
+    }
+
+    #why .why .header {
+        margin-bottom: 30px !important;
+    }
+
+    #why .why .why-item{
+        margin-top: 30px;
+    }
+
+    #test .test .title {
+        margin-bottom: 60px;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+/*
+small device
+*/
+
+@media (max-width:767px) {
+    .fs-106{
+        font-size: 50px !important;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    #banner .banner{
+        padding: 80px 0 !important;
+    }
+
+    #banner .banner .banner-text {
+        padding-bottom: 50px;
+    }
+
+    #banner .banner .end {
+        margin-top: 0px !important;
+    }
+
+    #trust .trust{
+        padding: 0 0 !important;
+    }
+
+    #trust .trust .trust-text {
+        padding: 60px 0 !important;
+    }
+
+    #trust .fst{
+        padding-top: 0 !important;
+    }
+
+    #trad .trad .trad-text {
+        padding-top: 0px !important;
+        margin-bottom: 60px;
+    }
+
+    #market .market .market-item {
+        padding: 60px 0 !important;
+    }
+
+    #why .why .header {
+        margin-bottom: 30px !important;
+    }
+
+    #why .why .why-item{
+        margin-top: 30px;
+    }
+
+    #test .test .title {
+        margin-bottom: 60px;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+/*
+medium device
+*/

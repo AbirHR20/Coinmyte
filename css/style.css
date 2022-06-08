@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700;800&display=swap');
+
+
+:root{
+    --hf: 'Urbanist', sans-serif;
+    --brand : #0d0821;
+    --brand2 : #3b2ac1;
+    --sh : #9664bc;
+}
+
+/*
+root css ends
+*/
+
+.u-med{
+    font-family: var(--hf);
+    font-weight: 500;
+}
+
+.u-semi{
+    font-family: var(--hf);
+    font-weight: 600;
+}
+
+.u-bold{
+    font-family: var(--hf);
+    font-weight: 700;
+}
+
+.u-ex{
+    font-family: var(--hf);
+    font-weight: 800;
+}
+
+/*
+font family css ends
+*/
+
+.fs-11{
+    font-size: 11px;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.fs-21{
+    font-size: 21px;
+}
+
+.fs-37{
+    font-size: 37px;
+}
+
+.fs-106{
+    font-size: 106px;
+}
+
+/*
+font css ends
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+/*
+common css ends
+*/
+
+nav{
+    z-index: 999;
+}
+
+/*
+nav css ends
+*/
+
+#banner .banner{
+    background: linear-gradient(to right,var(--brand),var(--brand2),var(--sh));
+    padding: 180px 0;
+}
+
+#banner .banner .banner-text{
+    padding-top: 100px;
+}
+
+#banner .banner .banner-text h1{
+    text-shadow: 0 0 30px #9664bc;
+    padding-bottom: 20px;
+}
+
+#banner .banner .end{
+    margin-top: 100px;
+}
+
+/*
+banner css ends
+*/
+
+#trust .trust{
+    background: linear-gradient(to right,var(--brand),var(--brand2));
+    padding: 180px 0;
+}
+
+#trust .fst{
+    padding-top: 400px;
+}
+
+#trust .trust .trust-text{
+    padding-top: 60px;
+}
+
+#trust .trust .trust-text h1{
+    text-shadow: 0 0 30px #9664bc;
+    padding: 30px 0;
+}
+
+/*
+trust css ends
+*/
+
+#feat .feat{
+    background: linear-gradient(var(--brand),var(--brand2));
+    padding: 100px 0;
+}
+
+#feat .feat header{
+    text-shadow: 0 0 30px #9664bc;
+}
+
+#feat .feat .feat-item{
+    margin: 150px 0;
+}
+
+/*
+feat css ends
+*/
+
+#trad .trad{
+    background-image: url(../images/trade-back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+#trad .trad .trad-text{
+    padding-top: 165px;
+}
+
+#trad .trad .trad-text article{
+    margin: 30px 0;
+}
+
+/*
+trad css ends
+*/
+
+#market .market{
+    background: linear-gradient(var(--brand2),var(--brand));
+}
+
+#market .market .market-item{
+    padding-top: 200px;
+}
+
+#market .market .market-item h1{
+    text-shadow: 0 0 30px #9664bc;
+}
+
+#market .market .market-item article{
+    padding: 40px 0;
+}
+
+/*
+market css ends
+*/
+
+#best .best{
+    background: linear-gradient(var(--brand2),var(--brand));
+    padding: 40px 0;
+}
+
+#best .best .best-item{
+    margin: 60px 0;
+}
+
+/*
+best css ends
+*/
+
+#why .why{
+    background-image: url(../images/why-back.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0;
+}
+
+#why .why .header{
+    margin-bottom: 160px;
+}
+
+/*
+why css ends
+*/
+
+#test .test{
+    background: linear-gradient(to right,var(--brand),var(--brand2));
+    padding: 130px 0;
+}
+
+#test .test .title{
+    text-shadow: 0 0 30px #9664bc;
+}
+
+#test .test .test-item{
+    margin: 10px 0;
+}
+
+/*
+test css ends
+*/
+
+footer{
+    background-color: var(--brand);
+    padding: 50px 0;
+}
